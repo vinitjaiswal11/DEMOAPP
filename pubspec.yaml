@@ -37,11 +37,10 @@ dependencies:
   firebase_core: ^1.17.1
   cloud_firestore: ^3.1.17
   flutter_launcher_icons: ^0.9.0
-<<<<<<< HEAD
+
   firebase_storage: ^10.2.7
   image_picker: ^0.7.0
-=======
->>>>>>> 0e9759786f4284064648ccdccc27fd67fbd9879b
+
 
 
 dev_dependencies:
