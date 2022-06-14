@@ -2,8 +2,11 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:info/home.dart';
 
+<<<<<<< HEAD
 import 'home2.dart';
 
+=======
+>>>>>>> 0e9759786f4284064648ccdccc27fd67fbd9879b
 void main()async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -29,9 +32,15 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
+<<<<<<< HEAD
         primarySwatch: Colors.cyan,
       ),
       home: Home2()
+=======
+        primarySwatch: Colors.blue,
+      ),
+      home: Home()
+>>>>>>> 0e9759786f4284064648ccdccc27fd67fbd9879b
       // const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
